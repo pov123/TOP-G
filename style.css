@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("https://pic.clubic.com/v1/images/2071476/raw") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.logo img {
+    width: 200px; /* Ajustez la taille selon vos besoins */
+    height: 200px; /* Ajustez la taille selon vos besoins */
+}
+
+.videos iframe {
+    width: 560px;
+    height: 315px;
+    margin: 20px;
+}
+
+.slogan {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+
+.slogan p {
+    font-size: 24px;
+}
+
+.slogan p:last-child {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.bottom-videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bottom-videos iframe {
+    width: 300px; /* Taille moyenne des vidéos */
+    height: 200px; /* Taille moyenne des vidéos */
+    margin: 10px;
+}
